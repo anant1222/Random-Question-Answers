@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="styles.css" />
+ <!--<script src="script.js" type="text/javascript" charset="utf-8"></script>-->
+  </head>
+  <body>
+     <div id ='A'>
+         <div id ='B'>
+         <div id ='C'>
+       <button>click Here</button>
+     </div>
+     </div>
+     </div>
+     
+ <script>
+    document.querySelectorAll("div").forEach(e=>{
+      e.onclick = e =>{document.write(e.currentTarget.id)}})
+ </script>
+ 
+  </body>
+</html>
